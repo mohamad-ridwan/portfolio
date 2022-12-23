@@ -57,7 +57,7 @@ function Aplikasi() {
                     </h6>
 
                     <p className="deskripsi-aplikasi">
-                        Inilah hasil projek yang telah Saya buat selama 1,5 tahun terakhir. Setelah Saya mengikuti pembelajaran Front End Web Developer di Bootcamp Jvalley dalam 1 tahun, Saya mampu membuat 5 projek dengan React JS.
+                        Inilah hasil projek yang telah Saya buat selama 1,5 tahun terakhir. Setelah Saya mengikuti pembelajaran Front End Web Developer di Bootcamp Jvalley dalam 1 tahun, Saya mampu membuat 5 projek dengan React JS. Dari semua data projek ini terhubung dengan API yang Saya buat sendiri dengan Restful API, menggunakan Node JS untuk Backend dan MongoDB untuk Database.
                     </p>
 
                     <div className="column-card-aplikasi">

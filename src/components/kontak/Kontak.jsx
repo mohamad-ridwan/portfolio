@@ -92,7 +92,7 @@ function Kontak() {
                             Kontak Saya
                         </h6>
                         <p className="deskripsi-kontak">
-                            Jika Bapak/Ibu tertarik dengan posisi dan kemampuan saya yang dimiliki, hubungi melalui kontak Saya dibawah ini.
+                            Jika Bapak/Ibu tertarik dengan posisi dan kemampuan yang Saya miliki, dapat hubungi Saya melalui kontak dibawah ini.
                         </p>
 
                         <div className="column-input">
