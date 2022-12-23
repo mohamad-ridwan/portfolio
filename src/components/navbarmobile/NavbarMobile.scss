@@ -1,0 +1,139 @@
+@import '../../utils/color.scss';
+
+@mixin mobile(){
+    @media (max-width: 680px) {
+        @content;
+    }
+}
+
+@mixin mobileSmall(){
+    @media (max-width: 315px) {
+        @content;
+    }
+}
+
+.navbar-mobile{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: auto;
+    left: 0;
+    right: 0;
+    background-color: $colorNavbar;
+    padding: 20px 20px 10px 20px;
+    z-index: 99999999999;
+    transition: 0.2s ease-in-out;
+
+    @include mobile(){
+        display: flex;
+    }
+
+    .column-atas-navbar-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        .btn-title-navbar{
+            background-color: transparent;
+            outline: none;
+            border: none;
+            cursor: pointer;
+    
+            .title-navbar{
+                font-size: 18px;
+                color: #fff;
+                font-family: $font;
+                padding: 5px 0;
+                margin-right: 15px;
+                letter-spacing: 0.5px;
+                text-align: start;
+
+                @include mobileSmall(){
+                    font-size: 14px;
+                }
+            }
+        }
+        .not-active{
+            font-size: 30px;
+            color: #fff;
+            opacity: 0.7;
+            transition: 0.2s ease-in-out;
+            padding: 2px;
+            &:hover{
+                opacity: 1;
+            }
+
+            @include mobileSmall(){
+                font-size: 20px;
+            }
+        }
+        .btn-active{
+            color: #fff;
+            font-size: 30px;
+            padding: 2px;
+
+            @include mobileSmall(){
+                font-size: 20px;
+            }
+        }
+    }
+
+    .container-navbar-collapse-mobile{
+        display: flex;
+
+        .navbar-mobile-collapse{
+            display: flex;
+            flex-direction: column;
+            height: 0px;
+            overflow: hidden;
+            transition: 0.2s ease-in-out;
+            margin-top: 10px;
+    
+            .list-menu-navbar{
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                overflow: hidden;
+    
+                .name-menu{
+                    font-size: 13px;
+                    color: #fff;
+                    opacity: 0.7;
+                    text-decoration: none;
+                    margin-right: 15px;
+                    transition: 0.2s ease-in-out;
+                    letter-spacing: 0.5px;
+                    overflow: hidden;
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+    
+                .button-hire-me{
+                    display: flex;
+                    text-decoration: none;
+                    color: #fff;
+                    opacity: 0.7;
+                    font-size: 14px;
+                    align-items: center;
+                    letter-spacing: 0.5px;
+                    padding: 7px 12px;
+                    transition: 0.2s ease-in-out;
+                    border-radius: 3px;
+                    overflow: hidden;
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.122);
+                    }
+        
+                    i{
+                        font-size: 14px;
+                        margin-left: 10px;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}

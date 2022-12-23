@@ -1,0 +1,155 @@
+@import '../../utils/color.scss';
+
+@mixin tablet(){
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+.kontak{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .width-kontak{
+        display: flex;
+        width: $desktop;
+        justify-content: space-between;
+
+        @include tablet(){
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .wrapp-google-maps{
+            display: flex;
+            width: 60%;
+            margin-right: 40px;
+            border-radius: 10px;
+
+            @include tablet(){
+                height: 300px;
+                width: auto;
+                margin-right: 0;
+                margin-bottom: 30px;
+            }
+        }
+
+        .form-kontak{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+
+            @include tablet(){
+                width: auto;
+            }
+
+            .title-kontak{
+                font-size: 30px;
+                color: #fff;
+                text-align: start;
+            }
+
+            .deskripsi-kontak{
+                display: flex;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                line-height: 1.8;
+                color: #fff;
+                opacity: 0.7;
+                margin: 10px 0 20px 0;
+                text-align: start;
+            }
+
+            .column-input{
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+
+                .label-input{
+                    color: #fff;
+                    opacity: 0.7;
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                    text-align: start;
+                    letter-spacing: 0.5px;
+                }
+
+                .input{
+                    font-size: 14px;
+                    color: #fff;
+                    outline: none;
+                    border: 1px solid rgba(255, 255, 255, 0.156);
+                    width: auto;
+                    background-color: $colorNavbar;
+                    padding: 8px 13px;
+                    border-radius: 3px;
+                    font-family: 'Roboto', sans-serif;
+                    resize: none;
+                }
+
+                .error-message{
+                    font-size: 13px;
+                    color: #ff0000;
+                    text-align: start;
+                    transition: 0.2s ease-in-out;
+                    margin-top: 5px;
+                }
+            }
+
+            .btn-submit{
+                position: relative;
+                border-radius: 3px;
+                padding: 12px 25px;
+                font-size: 16px;
+                color: #fff;
+                cursor: pointer;
+                overflow: hidden;
+                outline: none;
+                border: none;
+                margin-top: 20px;
+                text-decoration: none;
+                transition: 0.2s ease-in-out;
+                background-color: #06a94d;
+                    &:hover{
+                        background-color: #06a94da2;
+                    }
+
+                .loading-submit{
+                    display: none;
+                    position: absolute;
+                    border-radius: 3px;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: #06a94d;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: not-allowed;
+                    &:hover{
+                        background-color: #06a94d;
+                    }
+
+                    .circle-loading-submit{
+                        height: 25px;
+                        width: 25px;
+                        border-radius: 500px;
+                        border: 2px solid #fff;
+                        border-top-color: #06a94d;
+                        transform: rotate(0deg);
+                        animation: loading 0.6s ease infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes loading {
+    to{
+        transform: rotate(360deg);
+    }
+}

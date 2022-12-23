@@ -1,0 +1,102 @@
+@import '../../utils/color.scss';
+
+@mixin tablet(){
+    @media (max-width: 860px) {
+        @content;
+    }
+}
+
+@mixin tabletListSkills(){
+    @media (max-width: 680px) {
+        @content;
+    }
+}
+
+@mixin mobile(){
+    @media (max-width: 468px) {
+        @content;
+    }
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
+    .width-skills{
+        display: flex;
+        flex-direction: column;
+        width: $desktop;
+        padding: 0 100px;
+
+        @include tablet(){
+            padding: 0;
+        }
+
+        i{
+            font-size: 25px;
+            color: #fff;
+            opacity: 0.7;
+            overflow: hidden;
+        }
+
+        .title-skills{
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            margin: 30px 0 20px 0;
+        }
+
+        .deskripsi-skills{
+            display: flex;
+            font-size: 14px;
+            color: #fff;
+            width: 70%;
+            opacity: 0.7;
+            text-align: center;
+            line-height: 1.8;
+            letter-spacing: 0.5px;
+            margin: 0 auto;
+
+            @include mobile(){
+                width: auto;
+            }
+        }
+
+        .column-list-skills{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style: none;
+            margin-top: 60px;
+
+            .list-skills{
+                display: flex;
+                align-items: center;
+                padding: 12px 15px;
+                width: calc(80%/2);
+                margin: 7px;
+                list-style: none;
+                background-color: $colorNavbar;
+                border-radius: 3px;
+
+                @include tabletListSkills(){
+                    width: 100%;
+                    margin: 7px 20px 0 20px;
+                }
+
+                i{
+                    font-size: 16px;
+                    color: aqua;
+                    padding: 2px;
+                }
+
+                .name-list-skills{
+                    font-size: 16px;
+                    color: #fff;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+@import '../../utils/color.scss';
+
+@mixin mobile(){
+    @media (max-width: 681px) {
+        @content;
+    }
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    height: 75px;
+    left: 0;
+    right: 0;
+    background-color: $colorNavbar;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 99999999999;
+
+    @include mobile(){
+        display: none;
+    }
+
+    .width-navbar{
+        display: flex;
+        width: $desktop;
+        justify-content: space-between;
+        align-items: center;
+
+        .column-kiri-navbar{
+            display: flex;
+            align-items: center;
+    
+            .btn-title-navbar{
+                background-color: transparent;
+                outline: none;
+                border: none;
+                cursor: pointer;
+    
+                .title-navbar{
+                    font-size: 18px;
+                    color: #fff;
+                    font-family: $font;
+                    border-right: 1px solid rgba(255, 255, 255, 0.463);
+                    padding: 5px 15px 5px 0;
+                    margin-right: 15px;
+                    letter-spacing: 0.5px;
+                }
+            }
+    
+            .menu-navbar{
+                display: flex;
+                list-style: none;
+    
+                .list-menu-navbar{
+                    display: flex;
+                    align-items: center;
+    
+                    .name-menu{
+                        font-size: 14px;
+                        color: #fff;
+                        opacity: 0.7;
+                        text-decoration: none;
+                        margin-right: 15px;
+                        transition: 0.2s ease-in-out;
+                        letter-spacing: 0.5px;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .column-kanan-navbar{
+            display: flex;
+            
+            .button-hire-me{
+                display: flex;
+                text-decoration: none;
+                color: #fff;
+                opacity: 0.7;
+                font-size: 16px;
+                align-items: center;
+                letter-spacing: 0.5px;
+                padding: 7px 12px;
+                transition: 0.2s ease-in-out;
+                border-radius: 3px;
+                &:hover{
+                    background-color: rgba(255, 255, 255, 0.122);
+                }
+    
+                i{
+                    font-size: 14px;
+                    margin-left: 10px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

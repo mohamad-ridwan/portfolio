@@ -1,0 +1,73 @@
+@import '../../utils/color.scss';
+
+@mixin tablet(){
+    @media (max-width: 860px) {
+        @content;
+    }
+}
+
+@mixin mobile(){
+    @media (max-width: 468px) {
+        @content;
+    }
+}
+
+.aplikasi{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    padding-top: 80px;
+
+    .width-aplikasi{
+        display: flex;
+        flex-direction: column;
+        width: $desktop;
+        padding: 0 100px;
+        justify-content: center;
+
+        @include tablet(){
+            padding: 0;
+        }
+
+        i{
+            font-size: 25px;
+            color: #fff;
+            opacity: 0.7;
+            overflow: hidden;
+        }
+
+        .title-aplikasi{
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            margin: 30px 0 20px 0;
+        }
+
+        .deskripsi-aplikasi{
+            display: flex;
+            font-size: 14px;
+            color: #fff;
+            width: 70%;
+            opacity: 0.7;
+            text-align: center;
+            line-height: 1.8;
+            letter-spacing: 0.5px;
+            margin: 0 auto;
+
+            @include mobile(){
+                width: auto;
+            }
+        }
+
+        .column-card-aplikasi{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 60px;
+
+            @include tablet(){
+                flex-direction: column;
+            }
+        }
+    }
+}

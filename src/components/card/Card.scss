@@ -1,0 +1,92 @@
+@import '../../utils/color.scss';
+
+@mixin tablet(){
+    @media (max-width: 860px) {
+        @content;
+    }
+}
+
+@mixin mobile(){
+    @media (max-width: 680px) {
+        @content;
+    }
+}
+
+.card{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: calc(90%/2);
+    margin: 15px;
+
+    @include tablet(){
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .hover-card{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: $colorBackground;
+        border: 5px solid $colorNavbar;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 40px 30px;
+        justify-content: center;
+
+        @include mobile(){
+            padding: 20px;
+        }
+
+        .content-card{
+            .title-component{
+                font-size: 14px;
+                color: aqua;
+                text-align: center;
+                letter-spacing: 0.5px;
+                overflow: hidden;
+            }
+    
+            .title-aplikasi-card{
+                font-size: 16px;
+                color: #fff;
+                text-align: center;
+                margin: 10px 0 20px 0;
+                overflow: hidden;
+            }
+    
+            .deskripsi-aplikasi-card{
+                font-size: 14px;
+                color: #fff;
+                letter-spacing: 0.5px;
+                line-height: 1.5;
+                overflow: hidden;
+            }
+    
+            .btn-github{
+                text-decoration: none;
+                cursor: pointer;
+                overflow: hidden;
+    
+                .img-github{
+                    width: 30px;
+                    border-radius: 500px;
+                    margin: 15px auto;
+                }
+            }
+        }
+        .content-card::-webkit-scrollbar{
+            width: 3px;
+        }
+        .content-card::-webkit-scrollbar-track{
+            border-radius: 5px;
+        }
+        .content-card::-webkit-scrollbar-thumb{
+            background-color: aqua;
+            border-radius: 5px;
+        }
+    }
+}
