@@ -32,7 +32,7 @@ function Skills() {
                         Keahlian Saya
                     </h6>
                     <p className="deskripsi-skills">
-                        Setelah mengikuti pembelajaran Front End Web Developer di Bootcamp Jvalley dalam 1,5 tahun, saya dapat menguasai keahlian sebagai berikut.
+                        Setelah mengikuti pembelajaran Front End Web Developer di Bootcamp Jvalley dalam 1 tahun, saya dapat menguasai keahlian sebagai berikut.
                     </p>
 
                     <ul className="column-list-skills">
