@@ -16,7 +16,7 @@ function Skills() {
             name: 'CSS/SASS'
         },
         {
-            name: 'Redux Toolkit/Context'
+            name: 'Zustand/Redux Toolkit/Context'
         },
         {
             name: 'Git'

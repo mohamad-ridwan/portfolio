@@ -19,7 +19,7 @@ function Aplikasi() {
         {
             linkProjek: 'https://e-learning-rp.web.app/',
             titleAplikasi: 'React E-Learning',
-            deskripsi: 'Sistem pembelajaran online, dengan adanya absen Mahasiswa, obrolan Mahasiswa, dan ketersediaan materi pembelajaran. Sistem login menggunakan autentikasi JSON Web Token.',
+            deskripsi: 'Sistem pembelajaran online, dengan adanya absen Mahasiswa, obrolan Mahasiswa, dan ketersediaan materi pembelajaran. Sistem login menggunakan autentikasi JSON Web Token. <br/><br/> User (Mahasiswa) tidak perlu register akun karena sudah terdaftar oleh sistem dari data mahasiswa yang aktif. <br/> Akun login User (Mahasiswa) : <br/> NIM : 15100019 <br/> Password : mhs-2021',
             video: elearning,
             github: 'https://github.com/mohamad-ridwan/elearning'
         },
@@ -45,7 +45,13 @@ function Aplikasi() {
             github: 'https://github.com/mohamad-ridwan/rs-gatot-soebroto'
         },
     ])
-    const [idx, setIdx] = useState(null) 
+    const [idx, setIdx] = useState(null)
+
+    function RenderHTML({text}){
+        return(
+            <p dangerouslySetInnerHTML={{__html: text}}></p>
+        )
+    }
 
     return (
         <>
@@ -67,7 +73,7 @@ function Aplikasi() {
                                 key={i}
                                 linkProjek={e.linkProjek}
                                 titleAplikasi={e.titleAplikasi}
-                                deskripsi={e.deskripsi}
+                                deskripsi={<RenderHTML text={e.deskripsi}/>}
                                 video={e.video}
                                 linkGithub={e.github}
                                 mouseOver={()=>setIdx(i)}

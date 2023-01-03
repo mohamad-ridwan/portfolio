@@ -20,9 +20,7 @@ function Card({ linkProjek, titleAplikasi, deskripsi, video, mouseOver, mouseLea
                         <h6 className="title-aplikasi-card">
                             {titleAplikasi}
                         </h6>
-                        <p className="deskripsi-aplikasi-card">
-                            {deskripsi}
-                        </p>
+                        <p className="deskripsi-aplikasi-card">{deskripsi}</p>
                         <a target='_blank' href={linkGithub} className='btn-github'>
                             <img src={github} alt="" className="img-github" />
                         </a>
