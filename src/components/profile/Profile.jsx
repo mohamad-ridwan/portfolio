@@ -16,7 +16,7 @@ function Profile() {
                         <p className="deskripsi-profile">
                             Saya Mohamad Ridwan Apriyadi umur 21 tahun, lulusan TKJ (Teknik Komputer & Jaringan) SMK AL-Muhtadin
                             Depok tahun angkatan 2019 dan melanjut kuliah di Universitas BSI Depok tahun ajaran 2020.
-                            Memiliki pengalaman belajar di JVALLEY dengan mempelajari Front End Web Developer sejak tahun 2020.
+                            Memiliki pengalaman belajar di Bootcamp JVALLEY dengan mempelajari Front End Web Developer (React Js) sejak tahun 2020.
                         </p>
                         <div className="column-btn-profile">
                             <a href='#kontak' className="btn-profile btn-work">
