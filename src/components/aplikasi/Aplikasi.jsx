@@ -6,9 +6,24 @@ import hospiceMedical from '../../videos/hospice-medical.mp4'
 import bibit from '../../videos/bibit.mp4'
 import rsGatot from '../../videos/rs-gatot-soebroto.mp4'
 import Card from '../card/Card'
+import adminHM from '../../videos/admin-hm.mp4'
 
 function Aplikasi() {
     const [dataAplikasi, setDataAplikasi] = useState([
+        {
+            linkProjek: 'https://hm-admin-six.vercel.app/',
+            titleAplikasi: 'Next JS Admin Rumah Sakit Hospice Medical',
+            deskripsi: 'Sistem admin dari Web Rumah Sakit Hospice Medical. Menggunakan Teknologi Framework React (Next JS) dengan App Route, TypeScript dan Tailwind CSS, Node JS dan database dari MongoDB. Pengelola global state menggunakan Zustand.',
+            video: adminHM,
+            github: 'https://github.com/mohamad-ridwan/hm-admin'
+        },
+        {
+            linkProjek: 'https://hospice-medical.web.app/',
+            titleAplikasi: 'React Pendaftaran Berobat',
+            deskripsi: 'Sistem informasi rumah sakit, dengan adanya pendaftaran online, artikel, dan komentar pada artikel. Mengelola state global dengan React Context.',
+            video: hospiceMedical,
+            github: 'https://github.com/mohamad-ridwan/hospice-medical'
+        },
         {
             linkProjek: 'https://rs-permata.web.app/',
             titleAplikasi: 'React Artikel Dengan Pencarian',
@@ -22,13 +37,6 @@ function Aplikasi() {
             deskripsi: 'Sistem pembelajaran online, dengan adanya absen Mahasiswa, obrolan Mahasiswa, dan ketersediaan materi pembelajaran. Sistem login menggunakan autentikasi JSON Web Token. <br/><br/> User (Mahasiswa) tidak perlu register akun karena sudah terdaftar oleh sistem dari data mahasiswa yang aktif. <br/> Akun login User (Mahasiswa) : <br/> NIM : 15100019 <br/> Password : mhs-2021',
             video: elearning,
             github: 'https://github.com/mohamad-ridwan/elearning'
-        },
-        {
-            linkProjek: 'https://hospice-medical.web.app/',
-            titleAplikasi: 'React Pendaftaran Berobat',
-            deskripsi: 'Sistem informasi rumah sakit, dengan adanya pendaftaran online, artikel, dan komentar pada artikel. Mengelola state global dengan React Context.',
-            video: hospiceMedical,
-            github: 'https://github.com/mohamad-ridwan/hospice-medical'
         },
         {
             linkProjek: 'https://bibit-rp.web.app/',

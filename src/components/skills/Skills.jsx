@@ -7,13 +7,19 @@ function Skills() {
             name: 'JavaScript'
         },
         {
+            name: 'Typescript'
+        },
+        {
             name: 'React JS'
+        },
+        {
+            name: 'Next JS (App Route & Pages Route)'
         },
         {
             name: 'HTML'
         },
         {
-            name: 'CSS/SASS'
+            name: 'Tailwind CSS/CSS/SASS'
         },
         {
             name: 'Zustand/Redux Toolkit/Context'
