@@ -7,9 +7,17 @@ import bibit from '../../videos/bibit.mp4'
 import rsGatot from '../../videos/rs-gatot-soebroto.mp4'
 import Card from '../card/Card'
 import adminHM from '../../videos/admin-hm.mp4'
+import pendataan from '../../videos/pendataan.mp4'
 
 function Aplikasi() {
-    const [dataAplikasi, setDataAplikasi] = useState([
+    const [dataAplikasi] = useState([
+        {
+            linkProjek: 'https://pendataan-pustakawan.web.app/',
+            titleAplikasi: 'Vite React TypeScript',
+            deskripsi: 'Sistem Pendataan Pustakawan pada Perpustakaan Kota Bogor. Menggunakan Teknologi Vite React TypeScript, TypeScript dan Tailwind CSS, Node JS dan database dari MongoDB. Pengelola global state menggunakan React.Context.',
+            video: pendataan,
+            github: 'https://github.com/mohamad-ridwan/pendataan-pustakawan'
+        },
         {
             linkProjek: 'https://hm-admin-six.vercel.app/',
             titleAplikasi: 'Next JS Admin Rumah Sakit Hospice Medical',

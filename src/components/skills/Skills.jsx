@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Skills.scss'
 
 function Skills() {
-    const [dataSkill, setDataSkill] = useState([
+    const [dataSkill] = useState([
         {
             name: 'JavaScript'
         },
@@ -13,7 +13,7 @@ function Skills() {
             name: 'React JS'
         },
         {
-            name: 'Next JS (App Route & Pages Route)'
+            name: 'Next JS'
         },
         {
             name: 'HTML'
