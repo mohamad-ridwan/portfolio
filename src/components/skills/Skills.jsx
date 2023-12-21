@@ -10,7 +10,7 @@ function Skills() {
             name: 'Typescript'
         },
         {
-            name: 'React JS'
+            name: 'React JS / Vite / (PWA)'
         },
         {
             name: 'Next JS'
