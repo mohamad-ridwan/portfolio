@@ -13,8 +13,8 @@ function Aplikasi() {
     const [dataAplikasi] = useState([
         {
             linkProjek: 'https://pendataan-pustakawan.web.app/',
-            titleAplikasi: 'Vite React TypeScript',
-            deskripsi: 'Sistem Pendataan Pustakawan pada Perpustakaan Kota Bogor. Menggunakan Teknologi Vite React TypeScript, TypeScript dan Tailwind CSS, Node JS dan database dari MongoDB. Pengelola global state menggunakan React.Context.',
+            titleAplikasi: 'Vite React TypeScript (PWA)',
+            deskripsi: 'Sistem Pendataan Pustakawan pada Perpustakaan Kota Bogor. Menggunakan Teknologi Vite React TypeScript, TypeScript dan Terintegrasi (PWA), dan Tailwind CSS, Node JS dan database dari MongoDB. Pengelola global state menggunakan React.Context.',
             video: pendataan,
             github: 'https://github.com/mohamad-ridwan/pendataan-pustakawan'
         },
