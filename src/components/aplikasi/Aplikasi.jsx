@@ -8,9 +8,17 @@ import rsGatot from '../../videos/rs-gatot-soebroto.mp4'
 import Card from '../card/Card'
 import adminHM from '../../videos/admin-hm.mp4'
 import pendataan from '../../videos/pendataan.mp4'
+import komersApp from '../../videos/app-komers.mp4'
 
 function Aplikasi() {
     const [dataAplikasi] = useState([
+        {
+            linkProjek: 'https://app.komers.io',
+            titleAplikasi: 'Komers App (E-commerce)',
+            deskripsi: 'Sistem belanja online yang bernama Komers. Menggunakan Teknologi React.',
+            video: komersApp,
+            github: 'https://github.com/REALM-CHAT/realmchat-project.git'
+        },
         {
             linkProjek: 'https://pendataan-pustakawan.web.app/',
             titleAplikasi: 'Vite React TypeScript (PWA)',

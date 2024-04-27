@@ -16,17 +16,20 @@ function Skills() {
             name: 'Next JS'
         },
         {
+            name: 'Slicing Figma / Adobe Photoshop'
+        },
+        {
             name: 'HTML'
         },
         {
-            name: 'Tailwind CSS/CSS/SASS'
+            name: 'Tailwind CSS/CSS/SASS/Material UI/Material Tailwind'
         },
         {
             name: 'Zustand/Redux Toolkit/Context'
         },
         {
             name: 'Git'
-        }
+        },
     ])
 
     return (
