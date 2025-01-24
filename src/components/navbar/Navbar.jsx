@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Navbar.scss'
+import { GetInformation } from '../../graphql/resolvers/information'
 
 function Navbar() {
+    const { loading, error, data } = GetInformation()
+
+    useEffect(() => {
+        console.log(loading, data)
+    }, [loading, data])
+
     return (
         <>
             <div className="navbar">
                 <div className="width-navbar">
                     <div className="column-kiri-navbar">
-                        <button className="btn-title-navbar" onClick={()=>{
+                        <button className="btn-title-navbar" onClick={() => {
                             window.scrollTo(0, 0)
                         }}>
                             <h6 className="title-navbar">

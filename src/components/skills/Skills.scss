@@ -69,34 +69,11 @@
             justify-content: center;
             list-style: none;
             margin-top: 60px;
+            gap: 10px;
 
             .list-skills{
                 display: flex;
-                align-items: center;
-                padding: 12px 15px;
-                width: calc(80%/2);
-                margin: 7px;
-                list-style: none;
-                background-color: $colorNavbar;
-                border-radius: 3px;
-
-                @include tabletListSkills(){
-                    width: 100%;
-                    margin: 7px 20px 0 20px;
-                }
-
-                i{
-                    font-size: 16px;
-                    color: aqua;
-                    padding: 2px;
-                }
-
-                .name-list-skills{
-                    font-size: 16px;
-                    color: #fff;
-                    margin-left: 20px;
-                    text-align: start;
-                }
+                max-width: 80px;
             }
         }
     }

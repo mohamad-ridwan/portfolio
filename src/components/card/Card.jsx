@@ -1,8 +1,9 @@
 import React from 'react'
 import github from '../../images/github.png'
 import './Card.scss'
+import Icons from '../icons/Icons'
 
-function Card({ linkProjek, titleAplikasi, deskripsi, video, mouseOver, mouseLeave, displayHover, linkGithub }) {
+function Card({ linkProjek, titleAplikasi, deskripsi, video, mouseOver, mouseLeave, displayHover, linkGithub, tools }) {
     return (
         <>
             <div className="card"
@@ -20,6 +21,18 @@ function Card({ linkProjek, titleAplikasi, deskripsi, video, mouseOver, mouseLea
                         <h6 className="title-aplikasi-card">
                             {titleAplikasi}
                         </h6>
+                        <h5 className='language-title'>Languages and Tools</h5>
+                        <div className='tools'>
+                            {tools?.map((tool, i) => {
+                                return (
+                                    <Icons key={i} img={tool.img} url={tool.url} />
+                                )
+                            })}
+                        </div>
+                        <hr style={{
+                            marginTop: '10px',
+                            marginBottom: '10px',
+                        }}/>
                         <p className="deskripsi-aplikasi-card">{deskripsi}</p>
                         <a target='_blank' href={linkGithub} className='btn-github'>
                             <img src={github} alt="" className="img-github" />
