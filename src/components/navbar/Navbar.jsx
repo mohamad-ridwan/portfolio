@@ -38,6 +38,11 @@ function Navbar() {
                                     Fokus & Tujuan Karir
                                 </a>
                             </li>
+                            <li className="list-menu-navbar">
+                                <a href="#organisasi-dan-pekerjaan" className="name-menu">
+                                    Organisasi & Pekerjaan
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div className="column-kanan-navbar">

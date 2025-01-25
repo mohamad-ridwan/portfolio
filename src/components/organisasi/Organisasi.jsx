@@ -16,7 +16,7 @@ export default function Organisasi() {
 
     return (
         <>
-            <div className="organisasi" id='organisasi'>
+            <div className="organisasi" id='organisasi-dan-pekerjaan'>
                 <div className="width-organisasi">
                     <i class="fa-solid fa-sitemap"></i>
                     <h6 className="title-organisasi">

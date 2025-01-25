@@ -21,7 +21,7 @@ function NavbarMobile() {
 
                 <div className="container-navbar-collapse-mobile">
                     <ul className="navbar-mobile-collapse" style={{
-                        height: active ? '95px' : '0px'
+                        minHeight: active ? '150px' : '0px'
                     }}>
                         <li className="list-menu-navbar">
                             <a href="#projek" className="name-menu">
@@ -36,6 +36,11 @@ function NavbarMobile() {
                         <li className="list-menu-navbar">
                             <a href="#fokus-dan-tujuan-karir" className="name-menu">
                                 Fokus & Tujuan Karir
+                            </a>
+                        </li>
+                        <li className="list-menu-navbar">
+                            <a href="#organisasi-dan-pekerjaan" className="name-menu">
+                                Organisasi & Pekerjaan
                             </a>
                         </li>
                         <li className="list-menu-navbar">
