@@ -11,12 +11,10 @@ function Profile() {
                         <h6 className="title-profile">
                             Hi, Saya Ridwan.
                             <br />
-                            Front End Developer React JS.
+                            Front End Developer.
                         </h6>
                         <p className="deskripsi-profile">
-                            Saya Mohamad Ridwan Apriyadi umur 21 tahun, lulusan TKJ (Teknik Komputer & Jaringan) SMK AL-Muhtadin
-                            Depok tahun angkatan 2019 dan melanjut kuliah di Universitas BSI Depok tahun ajaran 2020.
-                            Memiliki pengalaman di Bootcamp JVALLEY sebagai Front End Web Developer (React Js) tahun 2020 - 2021.
+                            Nama lengkap saya Mohamad Ridwan Apriyadi. Dalam satu tahun terakhir, saya telah mendapatkan banyak pengalaman dalam pengembangan aplikasi e-commerce, dengan fokus pada pengoptimalan performa rendering antarmuka pengguna dan menciptakan pengalaman pengguna yang cepat, responsif dan modern. <br /><br />Dengan menerapkan prinsip Clean Code, hal ini yang dapat memotivasi saya untuk selalu menganalisis kode dan mencegah kode logic atau komponen yang duplikasi. Dari motivasi ini, mendorong saya untuk selalu berpikir dalam teknis di setiap kasus.
                         </p>
                         <div className="column-btn-profile">
                             <a href='#kontak' className="btn-profile btn-work">

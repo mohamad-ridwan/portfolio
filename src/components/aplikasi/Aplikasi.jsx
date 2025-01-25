@@ -309,11 +309,11 @@ function Aplikasi() {
                 <div className="width-aplikasi">
                     <i class="fa-solid fa-code"></i>
                     <h6 className="title-aplikasi">
-                        Projek yang Saya Buat
+                        Pengalaman Projek
                     </h6>
 
                     <p className="deskripsi-aplikasi">
-                        Inilah hasil projek yang telah Saya buat selama 1,5 tahun terakhir. Setelah Saya mengikuti pembelajaran Front End Web Developer di Bootcamp Jvalley dalam 1 tahun, Saya mampu membuat 5 projek dengan React JS. Semua projek ini dibangun dengan Function Component, dan lebih banyak menggunakan React Context untuk global state management. Namun ada juga yang menggunakan Redux Toolkit. Untuk styling semua projek ini Saya menggunakan Sass.<br /><br /> Dan Dari semua data projek ini terhubung dengan API yang Saya buat sendiri dengan Restful API, menggunakan Node JS untuk Backend dan MongoDB untuk Database. Untuk hosting projek ini menggunakan Firebase Hosting.
+                        Projek yang saya bangun selama 1 tahun pengalaman mencerminkan hasil dari berbagai proyek yang telah saya kerjakan dengan fokus pada pengembangan web menggunakan teknologi modern seperti Next.js, React, dan CSS Modules. Dalam proses ini, saya telah menghadapi dan menyelesaikan berbagai tantangan teknis, termasuk penerapan tema dinamis dalam satu aplikasi, optimasi performa, serta pengelolaan komponen yang efisien.
                     </p>
 
                     <div className="column-card-aplikasi">

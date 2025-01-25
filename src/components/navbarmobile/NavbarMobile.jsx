@@ -16,7 +16,7 @@ function NavbarMobile() {
                         </h6>
                     </button>
 
-                    <i class={`fa-solid fa-bars ${active ? 'btn-active' : 'not-active'}`} onClick={()=>setActive(!active)}></i>
+                    <i class={`fa-solid fa-bars ${active ? 'btn-active' : 'not-active'}`} onClick={() => setActive(!active)}></i>
                 </div>
 
                 <div className="container-navbar-collapse-mobile">
@@ -31,6 +31,11 @@ function NavbarMobile() {
                         <li className="list-menu-navbar">
                             <a href="#skills" className="name-menu">
                                 Keahlian
+                            </a>
+                        </li>
+                        <li className="list-menu-navbar">
+                            <a href="#fokus-dan-tujuan-karir" className="name-menu">
+                                Fokus & Tujuan Karir
                             </a>
                         </li>
                         <li className="list-menu-navbar">
