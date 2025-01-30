@@ -5,6 +5,7 @@ import './Kontak.scss'
 function Kontak() {
     const [formData, setFormData] = useState({
         nama: '',
+        company: '',
         email: '',
         pesan: ''
     })
@@ -21,6 +22,7 @@ function Kontak() {
     function sendMessage() {
         const newData = {
             from_name: `"Your Portfolio"`,
+            company: formData.company,
             to_name: 'Mohamad Ridwan Apriyadi',
             to_email: 'ridwan.reactjs@gmail.com',
             message: `Dari Nama : ${formData.nama}`,
@@ -100,6 +102,13 @@ function Kontak() {
                             <input type="text" name='nama' className="input" onChange={changeInput} value={formData.nama} />
                             <p className="error-message">
                                 {errMessage && errMessage.nama}
+                            </p>
+                        </div>
+                        <div className="column-input">
+                            <label htmlFor="label" className="label-input">Perusahaan</label>
+                            <input type="text" name='company' className="input" onChange={changeInput} value={formData.company} />
+                            <p className="error-message">
+                                {errMessage && errMessage.company}
                             </p>
                         </div>
                         <div className="column-input">
