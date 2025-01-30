@@ -18,7 +18,7 @@ function Navbar() {
                             window.scrollTo(0, 0)
                         }}>
                             <h6 className="title-navbar">
-                                Mohamad Ridwan Apriyadi
+                                Ridwan
                             </h6>
                         </button>
 
@@ -41,6 +41,11 @@ function Navbar() {
                             <li className="list-menu-navbar">
                                 <a href="#organisasi-dan-pekerjaan" className="name-menu">
                                     Organisasi & Pekerjaan
+                                </a>
+                            </li>
+                            <li className="list-menu-navbar">
+                                <a href="#story" className="name-menu">
+                                    Singkat Cerita Pengalaman
                                 </a>
                             </li>
                         </ul>

@@ -48,6 +48,11 @@ function NavbarMobile() {
                                 Bekerja Dengan Saya <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </li>
+                        <li className="list-menu-navbar">
+                            <a href="#story" className="name-menu">
+                                Singkat Cerita Pengalaman
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

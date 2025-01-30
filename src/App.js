@@ -7,6 +7,7 @@ import NavbarMobile from './components/navbarmobile/NavbarMobile';
 import Organisasi from './components/organisasi/Organisasi';
 import Profile from './components/profile/Profile';
 import Skills from './components/skills/Skills';
+import Story from './components/story/Story';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <CareerFocus />
       <Organisasi />
+      <Story />
       <Kontak />
     </div>
   );
