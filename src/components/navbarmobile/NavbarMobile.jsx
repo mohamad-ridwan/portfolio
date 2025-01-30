@@ -12,7 +12,7 @@ function NavbarMobile() {
                         window.scrollTo(0, 0)
                     }}>
                         <h6 className="title-navbar">
-                            Mohamad Ridwan Apriyadi
+                            Ridwan
                         </h6>
                     </button>
 
@@ -21,7 +21,7 @@ function NavbarMobile() {
 
                 <div className="container-navbar-collapse-mobile">
                     <ul className="navbar-mobile-collapse" style={{
-                        minHeight: active ? '150px' : '0px'
+                        minHeight: active ? '180px' : '0px'
                     }}>
                         <li className="list-menu-navbar">
                             <a href="#projek" className="name-menu">
@@ -44,13 +44,13 @@ function NavbarMobile() {
                             </a>
                         </li>
                         <li className="list-menu-navbar">
-                            <a href="#kontak" className="button-hire-me">
-                                Bekerja Dengan Saya <i class="fa-solid fa-arrow-right"></i>
+                            <a href="#story" className="name-menu">
+                                Singkat Cerita Pengalaman
                             </a>
                         </li>
                         <li className="list-menu-navbar">
-                            <a href="#story" className="name-menu">
-                                Singkat Cerita Pengalaman
+                            <a href="#kontak" className="button-hire-me">
+                                Bekerja Dengan Saya <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </li>
                     </ul>

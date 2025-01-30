@@ -1,51 +1,73 @@
 @import '../../utils/color.scss';
 
-@mixin tablet(){
+@mixin tablet() {
     @media (max-width: 768px) {
         @content;
     }
 }
 
-.profile{
+.profile {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
-    margin-top: 75px;
+    margin-top: 40px;
 
-    @include tablet(){
-        margin-top: 60px;
-    }
-
-    .width-profile{
+    .width-profile {
         display: flex;
         justify-content: space-between;
         width: $desktop;
         padding-top: 40px;
 
-        @include tablet(){
+        @include tablet() {
             flex-direction: column;
             justify-content: flex-start;
             padding-top: 0px;
         }
 
-        .column-kiri-profile{
+        .column-kiri-profile {
             display: flex;
             flex-direction: column;
-            width: 60%;
+            width: 100%;
 
-            @include tablet(){
+            @include tablet() {
                 width: auto;
             }
 
-            .title-profile{
+            .column-profile {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-top: 20px;
+
+                @include tablet() {
+                    gap: 10px;
+                }
+
+                .me {
+                    height: 150px;
+                    width: 150px;
+                    object-fit: cover;
+                    border-radius: 50%;
+
+                    @include tablet() {
+                        height: 60px;
+                        width: 60px;
+                    }
+                }
+            }
+
+            .title-profile {
                 font-size: 30px;
                 color: #fff;
                 letter-spacing: 1.5px;
                 text-align: start;
-                margin-top: 40px;
+
+                @include tablet() {
+                    font-size: 18px;
+                }
             }
 
-            .deskripsi-profile{
+            .deskripsi-profile {
                 font-size: 14px;
                 color: #fff;
                 opacity: 0.7;
@@ -53,13 +75,18 @@
                 margin: 20px 0 30px 0;
                 letter-spacing: 0.5px;
                 line-height: 1.8;
+                width: 80%;
+
+                @include tablet() {
+                    width: 100%;
+                }
             }
 
-            .column-btn-profile{
+            .column-btn-profile {
                 display: flex;
                 flex-wrap: wrap;
 
-                .btn-profile{
+                .btn-profile {
                     border-radius: 3px;
                     padding: 12px 25px;
                     font-size: 16px;
@@ -74,17 +101,19 @@
                     margin-top: 10px;
                 }
 
-                .btn-work{
+                .btn-work {
                     background-color: #06a94d;
-                    &:hover{
+
+                    &:hover {
                         background-color: #06a94da2;
                     }
                 }
 
-                .btn-projek{
+                .btn-projek {
                     background-color: $colorNavbar;
                     color: rgba(255, 255, 255, 0.707);
-                    &:hover{
+
+                    &:hover {
                         color: #fff;
                         background-color: rgba(255, 255, 255, 0.105);
                     }
@@ -92,10 +121,10 @@
             }
         }
 
-        .img-profile{
+        .img-profile {
             max-width: 35%;
 
-            @include tablet(){
+            @include tablet() {
                 max-width: 100%;
                 margin-top: 60px;
             }
