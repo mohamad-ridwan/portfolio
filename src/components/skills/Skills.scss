@@ -48,14 +48,13 @@
         }
 
         .deskripsi-skills{
-            display: flex;
             font-size: 14px;
             color: #fff;
             width: 70%;
             opacity: 0.7;
             text-align: justify;
             line-height: 1.8;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.1px;
             margin: 0 auto;
 
             @include mobile(){

@@ -123,9 +123,9 @@ function Skills() {
                         Bahasa Pemrograman & Peralatan
                     </h6>
                     <p className="deskripsi-skills">
-                        Selama perjalanan pengembangan, saya mendapatkan pengalaman yang berharga dalam mengoptimalkan performa aplikasi dengan memanfaatkan React Server Components di Next.js. Fitur ini memungkinkan saya untuk memisahkan komponen yang hanya perlu dirender di server, sehingga mengurangi beban pada klien dan meningkatkan waktu respons halaman secara signifikan. Pengoptimalan ini membantu menciptakan aplikasi yang lebih efisien dan cepat, terutama ketika berhadapan dengan data dinamis yang perlu ditampilkan secara cepat tanpa mengorbankan performa.
+                        Selama perjalanan pengembangan, saya mendapatkan pengalaman yang berharga dalam mengoptimalkan performa aplikasi dengan memanfaatkan <strong>React Server Components (RSC)</strong> di Next.js. Dengan mengutamakan <strong>RSC</strong> di setiap component sehingga mengurangi beban pada klien dan meningkatkan waktu respons halaman secara signifikan. Pengoptimalan ini membantu menciptakan aplikasi yang lebih efisien dan cepat.
                         <br /><br />
-                        Selain itu, saya juga memiliki pengalaman bekerja dengan Socket.IO untuk membangun aplikasi messaging real-time. Dengan Socket.IO, saya berhasil mengimplementasikan komunikasi dua arah yang stabil dan responsif antara klien dan server, yang sangat penting dalam aplikasi seperti chat atau kolaborasi waktu nyata. Pengalaman ini memperkaya pemahaman saya tentang cara menangani data secara real-time dan memastikan aplikasi tetap lancar serta sinkron saat berkomunikasi antar pengguna.
+                        Selain itu, saya juga memiliki pengalaman bekerja dengan Socket.IO untuk membangun aplikasi messaging real-time. Dengan Socket.IO, saya berhasil mengimplementasikan komunikasi dua arah yang stabil dan responsif. Pengalaman ini memperkaya pemahaman saya tentang cara menangani data secara real-time dan memastikan aplikasi tetap lancar serta sinkron saat berkomunikasi antar pengguna.
                     </p>
 
                     <ul className="column-list-skills">

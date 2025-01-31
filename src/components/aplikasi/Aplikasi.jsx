@@ -313,7 +313,8 @@ function Aplikasi() {
                     </h6>
 
                     <p className="deskripsi-aplikasi">
-                        Projek yang saya bangun selama 1 tahun pengalaman mencerminkan hasil dari berbagai proyek yang telah saya kerjakan dengan fokus pada pengembangan web menggunakan teknologi modern seperti Next.js, React, dan CSS Modules. Dalam proses ini, saya telah menghadapi dan menyelesaikan berbagai tantangan teknis, termasuk penerapan tema dinamis dalam satu aplikasi, optimasi performa, serta pengelolaan komponen yang efisien.
+                        Projek yang saya bangun selama 1 tahun pengalaman merupakan hasil dari berbagai proyek yang telah saya kerjakan dengan fokus pada pengembangan web menggunakan teknologi modern seperti Next.js, React, dan CSS Modules. Namun ada juga yang Mobile App.
+                        <br /><br /> Dalam proses ini, saya telah menghadapi dan menyelesaikan berbagai tantangan teknis, termasuk penerapan tema dinamis dalam satu aplikasi, optimasi performa, serta pengelolaan komponen yang efisien.
                     </p>
 
                     <div className="column-card-aplikasi">
