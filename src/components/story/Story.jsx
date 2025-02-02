@@ -34,6 +34,11 @@ export default function Story() {
                         <img
                             src="/css-module.jpeg"
                             alt=""
+                            style={{
+                                width: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'cover',
+                            }}
                         />
                         <span>
                             Saya menerapkan fitur dynamic themes dengan memanfaatkan CSS Modules dari Next.js untuk membuat tampilan antarmuka berdasarkan tema yang dipilih. Struktur folder seperti /layout digunakan untuk memastikan bahwa setiap layout dapat menyesuaikan dengan berbagai tema secara dinamis, tanpa harus mengubah komponen dasarnya.
