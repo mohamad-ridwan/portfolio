@@ -85,6 +85,10 @@ function Skills() {
             url: 'https://flowbite.com/'
         },
         {
+            img: 'bootstrap.png',
+            url: 'https://getbootstrap.com/'
+        },
+        {
             img: 'material-ui.jpg',
             url: 'https://mui.com/'
         },

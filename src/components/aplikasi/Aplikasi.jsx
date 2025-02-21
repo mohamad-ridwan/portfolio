@@ -15,6 +15,7 @@ import realmInbox from '../../videos/realm-inbox.mov'
 import teamInboxApp from '../../videos/team-inbox-app.mov'
 import tgCheckout from '../../videos/ecommerce-tg-checkout.mov'
 import waCheckout from '../../videos/ecommerce-wa-checkout.mov'
+import pdip from '../../videos/pdip.mov'
 
 function Aplikasi() {
     const [dataAplikasi] = useState([
@@ -245,6 +246,31 @@ function Aplikasi() {
                 },
             ]
         },
+        {
+            linkProjek: 'https://pdiperjuangan.id/',
+            titleAplikasi: 'pdiperjuangan.id',
+            deskripsi: 'Media Website',
+            video: pdip,
+            github: 'https://github.com/mohamad-ridwan',
+            tools: [
+                {
+                    img: 'js.png',
+                    url: 'https://www.javascript.com/'
+                },
+                {
+                    img: 'react.png',
+                    url: 'https://react.dev/'
+                },
+                {
+                    img: 'sass.png',
+                    url: 'https://sass-lang.com/'
+                },
+                {
+                    img: 'bootstrap.png',
+                    url: 'https://getbootstrap.com/'
+                },
+            ]
+        },
         // {
         //     linkProjek: 'https://pendataan-pustakawan.web.app/',
         //     titleAplikasi: 'Vite React TypeScript (PWA)',
@@ -313,7 +339,7 @@ function Aplikasi() {
                     </h6>
 
                     <p className="deskripsi-aplikasi">
-                        Projek yang saya bangun selama 1 tahun pengalaman merupakan hasil dari berbagai proyek yang telah saya kerjakan dengan fokus pada pengembangan web menggunakan teknologi modern seperti Next.js, React, dan CSS Modules. Namun ada juga yang Mobile App.
+                        Projek yang saya bangun selama 2 tahun pengalaman merupakan hasil dari berbagai proyek yang telah saya kerjakan dengan fokus pada pengembangan web menggunakan teknologi modern seperti Next.js, React, dan CSS Modules. Namun ada juga yang Mobile App.
                         <br /><br /> Dalam proses ini, saya telah menghadapi dan menyelesaikan berbagai tantangan teknis, termasuk penerapan tema dinamis dalam satu aplikasi, optimasi performa, serta pengelolaan komponen yang efisien.
                     </p>
 
