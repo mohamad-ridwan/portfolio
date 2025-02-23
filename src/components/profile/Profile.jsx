@@ -23,7 +23,7 @@ function Profile() {
                             </div>
                         </div>
                         <p className="deskripsi-profile">
-                            Nama lengkap saya Mohamad Ridwan Apriyadi. Saya berpengalaman di Front End Developer sudah 2 tahun. Dalam satu tahun terakhir, saya fokus pada pengembangan aplikasi e-commerce, dengan fokus pada pengoptimalan performa rendering antarmuka pengguna dan menciptakan pengalaman pengguna yang cepat. <br /><br />Motto : "Dengan menerapkan prinsip Clean Code, hal ini yang dapat memotivasi saya untuk selalu menganalisis kode dan mencegah kode logic atau komponen yang duplikasi." Dari motivasi ini, mendorong saya untuk selalu berpikir dalam teknis di setiap kasus.
+                            Nama lengkap saya Mohamad Ridwan Apriyadi. Saya berpengalaman di Front End Developer sudah 2 tahun lebih. Saya fokus pada pengembangan aplikasi e-commerce, dengan fokus pada pengoptimalan performa rendering antarmuka pengguna dan menciptakan pengalaman pengguna yang cepat. <br /><br />Motto : "Dengan menerapkan prinsip Clean Code, hal ini yang dapat memotivasi saya untuk selalu menganalisis kode dan mencegah kode logic atau komponen yang duplikasi." Dari motivasi ini, mendorong saya untuk selalu berpikir dalam teknis di setiap kasus.
                         </p>
                         <div className="column-btn-profile">
                             <a href='#kontak' className="btn-profile btn-work">

@@ -16,6 +16,7 @@ import teamInboxApp from '../../videos/team-inbox-app.mov'
 import tgCheckout from '../../videos/ecommerce-tg-checkout.mov'
 import waCheckout from '../../videos/ecommerce-wa-checkout.mov'
 import pdip from '../../videos/pdip.mov'
+import pendataanPustakawan from '../../videos/pendataan-pustakawan.mov'
 
 function Aplikasi() {
     const [dataAplikasi] = useState([
@@ -247,6 +248,35 @@ function Aplikasi() {
             ]
         },
         {
+            linkProjek: 'https://pendataan-pustakawan.firebaseapp.com/',
+            titleAplikasi: 'Pendataan Pustakawan',
+            deskripsi: 'Pendataan & direktori Pustakawan',
+            video: pendataanPustakawan,
+            github: 'https://github.com/mohamad-ridwan/pendataan-pustakawan.git',
+            tools: [
+                {
+                    img: 'js.png',
+                    url: 'https://www.javascript.com/'
+                },
+                {
+                    img: 'ts.png',
+                    url: 'https://www.typescriptlang.org/'
+                },
+                {
+                    img: 'react.png',
+                    url: 'https://react.dev/'
+                },
+                {
+                    img: 'sass.png',
+                    url: 'https://sass-lang.com/'
+                },
+                {
+                    img: 'vite.png',
+                    url: 'https://vite.dev/guide/'
+                },
+            ]
+        },
+        {
             linkProjek: 'https://pdiperjuangan.id/',
             titleAplikasi: 'pdiperjuangan.id',
             deskripsi: 'Media Website',
@@ -339,7 +369,7 @@ function Aplikasi() {
                     </h6>
 
                     <p className="deskripsi-aplikasi">
-                        Projek yang saya bangun selama 2 tahun pengalaman merupakan hasil dari berbagai proyek yang telah saya kerjakan dengan fokus pada pengembangan web menggunakan teknologi modern seperti Next.js, React, dan CSS Modules. Namun ada juga yang Mobile App.
+                        Projek yang saya bangun selama 2 tahun lebih pengalaman merupakan hasil dari berbagai proyek yang telah saya kerjakan dengan fokus pada pengembangan web menggunakan teknologi modern seperti Next.js, React, dan CSS Modules. Namun ada juga yang Mobile App.
                         <br /><br /> Dalam proses ini, saya telah menghadapi dan menyelesaikan berbagai tantangan teknis, termasuk penerapan tema dinamis dalam satu aplikasi, optimasi performa, serta pengelolaan komponen yang efisien.
                     </p>
 
