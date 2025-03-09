@@ -44,8 +44,8 @@ function NavbarMobile() {
                             </a>
                         </li>
                         <li className="list-menu-navbar">
-                            <a href="#story" className="name-menu">
-                                Singkat Cerita Pengalaman
+                            <a href="#teknikal" className="name-menu">
+                                Teknikal Pengalaman
                             </a>
                         </li>
                         <li className="list-menu-navbar">
