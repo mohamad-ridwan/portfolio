@@ -39,7 +39,7 @@ export default function Organisasi() {
                     Front End Developer
                 </p>
             </>,
-            date: '2024 - 2025',
+            date: '2024 -',
             dateIcon: <i class="fa-solid fa-calendar-days" style={{ fontSize: '14px', opacity: 0.7 }}></i>
         },
         {
@@ -54,7 +54,7 @@ export default function Organisasi() {
                 Front End Developer
             </p>,
             dateIcon: <i class="fa-solid fa-calendar-days" style={{ fontSize: '14px', opacity: 0.7 }}></i>,
-            date: '2024 - 2025'
+            date: '2024 -'
         },
         {
             img: 'komers.jpeg',
@@ -68,7 +68,7 @@ export default function Organisasi() {
             }}>
                 Web Front End Developer & Mobile Android Developer
             </p>,
-            date: '2024 - 2025'
+            date: '2024 -'
         },
         {
             img: 'perpus.jpg',
