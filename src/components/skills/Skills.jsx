@@ -69,6 +69,22 @@ function Skills() {
             url: 'https://console.firebase.google.com/'
         },
         {
+            img: 'nodejs.webp',
+            url: 'https://nodejs.org/en'
+        },
+        {
+            img: 'express.png',
+            url: 'https://expressjs.com/'
+        },
+        {
+            img: 'mongodb.png',
+            url: 'https://www.mongodb.com/'
+        },
+        {
+            img: 'redis.png',
+            url: 'https://www.redis.io'
+        },
+        {
             img: 'tailwindcss.png',
             url: 'https://tailwindcss.com/'
         },

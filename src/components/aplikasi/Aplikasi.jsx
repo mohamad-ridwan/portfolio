@@ -17,6 +17,7 @@ import tgCheckout from '../../videos/ecommerce-tg-checkout.mov'
 import waCheckout from '../../videos/ecommerce-wa-checkout.mov'
 import pdip from '../../videos/pdip.mov'
 import pendataanPustakawan from '../../videos/pendataan-pustakawan.mov'
+import lumina from '../../videos/lumina.mp4'
 
 function Aplikasi() {
     const [dataAplikasi] = useState([
@@ -116,6 +117,55 @@ function Aplikasi() {
                 {
                     img: 'tailwindcss.png',
                     url: 'https://tailwindcss.com/'
+                },
+            ]
+        },
+        {
+            linkProjek: 'https://lumina-a8fa3.web.app/',
+            titleAplikasi: `Lumina Realtime Messaging App`,
+            deskripsi: 'Messaging App',
+            video: lumina,
+            github: 'https://github.com/REALM-CHAT/realm-inbox.git',
+            tools: [
+                {
+                    img: 'js.png',
+                    url: 'https://www.javascript.com/'
+                },
+                {
+                    img: 'vue.png',
+                    url: 'https://vuejs.org/guide/introduction.html'
+                },
+                {
+                    img: 'socket.png',
+                    url: 'https://socket.io/'
+                },
+                {
+                    img: 'pinia.png',
+                    url: 'https://pinia.vuejs.org/getting-started.html'
+                },
+                {
+                    img: 'vite.png',
+                    url: 'https://vite.dev/guide/'
+                },
+                {
+                    img: 'tailwindcss.png',
+                    url: 'https://tailwindcss.com/'
+                },
+                {
+                    img: 'nodejs.webp',
+                    url: 'https://nodejs.org/en'
+                },
+                {
+                    img: 'express.png',
+                    url: 'https://expressjs.com/'
+                },
+                {
+                    img: 'mongodb.png',
+                    url: 'https://www.mongodb.com/'
+                },
+                {
+                    img: 'redis.png',
+                    url: 'https://www.redis.io'
                 },
             ]
         },
