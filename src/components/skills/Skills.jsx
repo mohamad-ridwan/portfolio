@@ -25,6 +25,10 @@ function Skills() {
             url: 'https://react.dev/'
         },
         {
+            img: 'vue.png',
+            url: 'https://vuejs.org/guide/introduction.html'
+        },
+        {
             img: 'reactnative.svg',
             url: 'https://reactnative.dev/'
         },
