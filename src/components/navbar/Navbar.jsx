@@ -23,24 +23,24 @@ function Navbar() {
 
                         <ul className="menu-navbar">
                             <li className="list-menu-navbar">
-                                <a href="#projek" className="name-menu">
-                                    Projek
-                                </a>
+                                <Link to="/#projek" className="name-menu">
+                                Projek
+                                </Link>
                             </li>
                             <li className="list-menu-navbar">
-                                <a href="#skills" className="name-menu">
-                                    Keahlian
-                                </a>
+                            <Link to="/#skills" className="name-menu">
+                            Keahlian
+                                </Link>
                             </li>
                             <li className="list-menu-navbar">
-                                <a href="#fokus-dan-tujuan-karir" className="name-menu">
-                                    Fokus & Tujuan Karir
-                                </a>
+                            <Link to="/#fokus-dan-tujuan-karir" className="name-menu">
+                            Fokus & Tujuan Karir
+                                </Link>
                             </li>
                             <li className="list-menu-navbar">
-                                <a href="#organisasi-dan-pekerjaan" className="name-menu">
-                                    Organisasi & Pekerjaan
-                                </a>
+                            <Link to="/#organisasi-dan-pekerjaan" className="name-menu">
+                            Organisasi & Pekerjaan
+                                </Link>
                             </li>
                             {/* <li className="list-menu-navbar">
                                 <a href="#teknikal" className="name-menu">

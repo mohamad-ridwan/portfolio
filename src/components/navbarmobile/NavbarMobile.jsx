@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './NavbarMobile.scss'
+import { Link } from 'react-router-dom'
 
 function NavbarMobile() {
     const [active, setActive] = useState(false)
@@ -24,25 +25,25 @@ function NavbarMobile() {
                         minHeight: active ? '180px' : '0px'
                     }}>
                         <li className="list-menu-navbar">
-                            <a href="#projek" className="name-menu">
+                                <Link to="/#projek" className="name-menu">
                                 Projek
-                            </a>
-                        </li>
-                        <li className="list-menu-navbar">
-                            <a href="#skills" className="name-menu">
-                                Keahlian
-                            </a>
-                        </li>
-                        <li className="list-menu-navbar">
-                            <a href="#fokus-dan-tujuan-karir" className="name-menu">
-                                Fokus & Tujuan Karir
-                            </a>
-                        </li>
-                        <li className="list-menu-navbar">
-                            <a href="#organisasi-dan-pekerjaan" className="name-menu">
-                                Organisasi & Pekerjaan
-                            </a>
-                        </li>
+                                </Link>
+                            </li>
+                            <li className="list-menu-navbar">
+                            <Link to="/#skills" className="name-menu">
+                            Keahlian
+                                </Link>
+                            </li>
+                            <li className="list-menu-navbar">
+                            <Link to="/#fokus-dan-tujuan-karir" className="name-menu">
+                            Fokus & Tujuan Karir
+                                </Link>
+                            </li>
+                            <li className="list-menu-navbar">
+                            <Link to="/#organisasi-dan-pekerjaan" className="name-menu">
+                            Organisasi & Pekerjaan
+                                </Link>
+                            </li>
                         {/* <li className="list-menu-navbar">
                             <a href="#teknikal" className="name-menu">
                                 Teknikal Pengalaman
