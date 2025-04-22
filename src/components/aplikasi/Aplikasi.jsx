@@ -26,6 +26,7 @@ function Aplikasi() {
             titleAplikasi: `Storefront`,
             deskripsi: 'Dengan memanfaatkan CSS Module dari fitur Next.JS, Setiap tema dapat memiliki gaya yang unik dan dapat diintegrasikan secara dinamis tanpa mengubah kode dasar aplikasi. Memanfaatkan fitur RSC (React Server Component) untuk mendapatkan performa yang lebih baik.',
             video: storefront,
+            teknikalSlug: 'storefront',
             github: 'https://github.com/gangco-io/storefront.git',
             tools: [
                 {
@@ -55,76 +56,11 @@ function Aplikasi() {
             ]
         },
         {
-            linkProjek: 'https://app.komers.io',
-            titleAplikasi: `Komers | Boost Customer Engagement with Komers's Conversational Messaging Platform`,
-            deskripsi: 'E-commerce management dashboard',
-            video: komersApp,
-            github: 'https://github.com/REALM-CHAT/realmchat-project.git',
-            tools: [
-                {
-                    img: 'js.png',
-                    url: 'https://www.javascript.com/'
-                },
-                {
-                    img: 'react.png',
-                    url: 'https://react.dev/'
-                },
-                {
-                    img: 'react-router.png',
-                    url: 'https://reactrouter.com/'
-                },
-                {
-                    img: 'socket.png',
-                    url: 'https://socket.io/'
-                },
-                {
-                    img: 'redux-toolkit.png',
-                    url: 'https://redux-toolkit.js.org/'
-                },
-                {
-                    img: 'material-ui.jpg',
-                    url: 'https://mui.com/'
-                },
-            ]
-        },
-        {
-            linkProjek: 'https://team.realm.chat/login',
-            titleAplikasi: `Realmchat - Team Inbox`,
-            deskripsi: 'Messaging App',
-            video: realmInbox,
-            github: 'https://github.com/REALM-CHAT/realm-inbox.git',
-            tools: [
-                {
-                    img: 'js.png',
-                    url: 'https://www.javascript.com/'
-                },
-                {
-                    img: 'react.png',
-                    url: 'https://react.dev/'
-                },
-                {
-                    img: 'socket.png',
-                    url: 'https://socket.io/'
-                },
-                {
-                    img: 'redux-toolkit.png',
-                    url: 'https://redux-toolkit.js.org/'
-                },
-                {
-                    img: 'vite.png',
-                    url: 'https://vite.dev/guide/'
-                },
-                {
-                    img: 'tailwindcss.png',
-                    url: 'https://tailwindcss.com/'
-                },
-            ]
-        },
-        {
             linkProjek: 'https://lumina-a8fa3.web.app/',
             titleAplikasi: `Lumina Realtime Messaging App`,
             deskripsi: 'Messaging App',
             video: lumina,
+            teknikalSlug: 'lumina',
             github: 'https://github.com/REALM-CHAT/realm-inbox.git',
             tools: [
                 {
@@ -166,6 +102,73 @@ function Aplikasi() {
                 {
                     img: 'redis.png',
                     url: 'https://www.redis.io'
+                },
+            ]
+        },
+        {
+            linkProjek: 'https://team.realm.chat/login',
+            titleAplikasi: `Realmchat - Team Inbox`,
+            deskripsi: 'Messaging App',
+            video: realmInbox,
+            teknikalSlug: 'realm-inbox',
+            github: 'https://github.com/REALM-CHAT/realm-inbox.git',
+            tools: [
+                {
+                    img: 'js.png',
+                    url: 'https://www.javascript.com/'
+                },
+                {
+                    img: 'react.png',
+                    url: 'https://react.dev/'
+                },
+                {
+                    img: 'socket.png',
+                    url: 'https://socket.io/'
+                },
+                {
+                    img: 'redux-toolkit.png',
+                    url: 'https://redux-toolkit.js.org/'
+                },
+                {
+                    img: 'vite.png',
+                    url: 'https://vite.dev/guide/'
+                },
+                {
+                    img: 'tailwindcss.png',
+                    url: 'https://tailwindcss.com/'
+                },
+            ]
+        },
+        {
+            linkProjek: 'https://app.komers.io',
+            titleAplikasi: `Komers | Boost Customer Engagement with Komers's Conversational Messaging Platform`,
+            deskripsi: 'E-commerce management dashboard',
+            video: komersApp,
+            github: 'https://github.com/REALM-CHAT/realmchat-project.git',
+            tools: [
+                {
+                    img: 'js.png',
+                    url: 'https://www.javascript.com/'
+                },
+                {
+                    img: 'react.png',
+                    url: 'https://react.dev/'
+                },
+                {
+                    img: 'react-router.png',
+                    url: 'https://reactrouter.com/'
+                },
+                {
+                    img: 'socket.png',
+                    url: 'https://socket.io/'
+                },
+                {
+                    img: 'redux-toolkit.png',
+                    url: 'https://redux-toolkit.js.org/'
+                },
+                {
+                    img: 'material-ui.jpg',
+                    url: 'https://mui.com/'
                 },
             ]
         },
@@ -421,6 +424,8 @@ function Aplikasi() {
                     <p className="deskripsi-aplikasi">
                         Projek yang saya bangun selama 2 tahun lebih pengalaman merupakan hasil dari berbagai proyek yang telah saya kerjakan dengan fokus pada pengembangan web menggunakan teknologi modern seperti Next.js, React, dan CSS Modules. Namun ada juga yang Mobile App.
                         <br /><br /> Dalam proses ini, saya telah menghadapi dan menyelesaikan berbagai tantangan teknis, termasuk penerapan tema dinamis dalam satu aplikasi, optimasi performa, serta pengelolaan komponen yang efisien.
+                        <br /><br />
+                        Untuk pengalaman Teknikal lengkap saya, Bapak/Ibu bisa melihat melalui setiap tombol di projek yang ada di bawah ini. Di setiap projek terdapat video demo dan juga link ke Github saya.
                     </p>
 
                     <div className="column-card-aplikasi">
@@ -437,6 +442,7 @@ function Aplikasi() {
                                     mouseLeave={() => setIdx(null)}
                                     displayHover={idx === i ? 'flex' : 'none'}
                                     tools={e.tools}
+                                    teknikalSlug={e?.teknikalSlug}
                                 />
                             )
                         })}

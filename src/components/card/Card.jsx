@@ -2,8 +2,9 @@ import React from 'react'
 import github from '../../images/github.png'
 import './Card.scss'
 import Icons from '../icons/Icons'
+import { Link } from 'react-router-dom'
 
-function Card({ linkProjek, titleAplikasi, deskripsi, video, mouseOver, mouseLeave, displayHover, linkGithub, tools }) {
+function Card({ linkProjek, titleAplikasi, deskripsi, video, mouseOver, mouseLeave, displayHover, linkGithub, tools, teknikalSlug }) {
     return (
         <>
             <div className="card"
@@ -18,9 +19,15 @@ function Card({ linkProjek, titleAplikasi, deskripsi, video, mouseOver, mouseLea
                         <a target='_blank' href={linkProjek} className="title-component">
                             {linkProjek}
                         </a>
-                        <h6 className="title-aplikasi-card">
+                        <h6 className="title-aplikasi-card" style={{
+                            marginBottom: teknikalSlug ? '0px' : '15px',
+                        }}>
                             {titleAplikasi}
                         </h6>
+                        {teknikalSlug && 
+                        <Link to={`/teknikal/${teknikalSlug}`} className="teknikal-btn">
+                            Lihat Teknikal
+                        </Link>}
                         <h5 className='language-title'>Languages and Tools</h5>
                         <div className='tools'>
                             {tools?.map((tool, i) => {

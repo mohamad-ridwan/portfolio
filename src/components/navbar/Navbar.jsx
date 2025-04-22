@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './Navbar.scss'
 import { GetInformation } from '../../graphql/resolvers/information'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     const { loading, error, data } = GetInformation()
@@ -14,13 +15,11 @@ function Navbar() {
             <div className="navbar">
                 <div className="width-navbar">
                     <div className="column-kiri-navbar">
-                        <button className="btn-title-navbar" onClick={() => {
-                            window.scrollTo(0, 0)
-                        }}>
+                        <Link to="/" onClick={() => window.scrollTo(0, 0)} className="btn-title-navbar">
                             <h6 className="title-navbar">
                                 Ridwan
                             </h6>
-                        </button>
+                        </Link>
 
                         <ul className="menu-navbar">
                             <li className="list-menu-navbar">
@@ -43,11 +42,11 @@ function Navbar() {
                                     Organisasi & Pekerjaan
                                 </a>
                             </li>
-                            <li className="list-menu-navbar">
+                            {/* <li className="list-menu-navbar">
                                 <a href="#teknikal" className="name-menu">
                                     Teknikal Pengalaman
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="column-kanan-navbar">

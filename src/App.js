@@ -1,27 +1,25 @@
 import './App.css'
-import Aplikasi from './components/aplikasi/Aplikasi';
-import CareerFocus from './components/career-focus/CareerFocus';
-import Kontak from './components/kontak/Kontak';
+import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import NavbarMobile from './components/navbarmobile/NavbarMobile';
-import Organisasi from './components/organisasi/Organisasi';
-import Profile from './components/profile/Profile';
-import Skills from './components/skills/Skills';
-import Story from './components/story/Story';
+import Home from './pages/Home';
+import Teknikal from './pages/Teknikal';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <Navbar />
-      <NavbarMobile />
-      <Profile />
-      <Aplikasi />
-      <Skills />
-      <CareerFocus />
-      <Organisasi />
-      <Story />
-      <Kontak />
+    <Navbar />
+    <NavbarMobile />
+    <Routes>
+      <>
+      <Route path="/teknikal/:id" element={<Teknikal />} />
+      <Route path="/" element={<Home />} />
+      </>
+    </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

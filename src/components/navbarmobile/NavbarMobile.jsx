@@ -43,11 +43,11 @@ function NavbarMobile() {
                                 Organisasi & Pekerjaan
                             </a>
                         </li>
-                        <li className="list-menu-navbar">
+                        {/* <li className="list-menu-navbar">
                             <a href="#teknikal" className="name-menu">
                                 Teknikal Pengalaman
                             </a>
-                        </li>
+                        </li> */}
                         <li className="list-menu-navbar">
                             <a href="#kontak" className="button-hire-me">
                                 Bekerja Dengan Saya <i class="fa-solid fa-arrow-right"></i>
