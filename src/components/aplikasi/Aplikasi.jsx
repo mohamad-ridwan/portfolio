@@ -22,40 +22,6 @@ import lumina from '../../videos/lumina.mp4'
 function Aplikasi() {
     const [dataAplikasi] = useState([
         {
-            linkProjek: 'https://demo.bizappelite.com/store',
-            titleAplikasi: `Storefront`,
-            deskripsi: 'Dengan memanfaatkan CSS Module dari fitur Next.JS, Setiap tema dapat memiliki gaya yang unik dan dapat diintegrasikan secara dinamis tanpa mengubah kode dasar aplikasi. Memanfaatkan fitur RSC (React Server Component) untuk mendapatkan performa yang lebih baik.',
-            video: storefront,
-            teknikalSlug: 'storefront',
-            github: 'https://github.com/gangco-io/storefront.git',
-            tools: [
-                {
-                    img: 'js.png',
-                    url: 'https://www.javascript.com/'
-                },
-                {
-                    img: 'ts.png',
-                    url: 'https://www.typescriptlang.org/'
-                },
-                {
-                    img: 'next.png',
-                    url: 'https://nextjs.org/'
-                },
-                {
-                    img: 'redux-toolkit.png',
-                    url: 'https://redux-toolkit.js.org/'
-                },
-                {
-                    img: 'mt.png',
-                    url: 'https://www.material-tailwind.com/'
-                },
-                {
-                    img: 'tailwindcss.png',
-                    url: 'https://tailwindcss.com/'
-                },
-            ]
-        },
-        {
             linkProjek: 'https://lumina-a8fa3.web.app/',
             titleAplikasi: `Lumina Realtime Messaging App`,
             deskripsi: 'Messaging App',
@@ -102,6 +68,40 @@ function Aplikasi() {
                 {
                     img: 'redis.png',
                     url: 'https://www.redis.io'
+                },
+            ]
+        },
+        {
+            linkProjek: 'https://demo.bizappelite.com/store',
+            titleAplikasi: `Storefront`,
+            deskripsi: 'Dengan memanfaatkan CSS Module dari fitur Next.JS, Setiap tema dapat memiliki gaya yang unik dan dapat diintegrasikan secara dinamis tanpa mengubah kode dasar aplikasi. Memanfaatkan fitur RSC (React Server Component) untuk mendapatkan performa yang lebih baik.',
+            video: storefront,
+            teknikalSlug: 'storefront',
+            github: 'https://github.com/gangco-io/storefront.git',
+            tools: [
+                {
+                    img: 'js.png',
+                    url: 'https://www.javascript.com/'
+                },
+                {
+                    img: 'ts.png',
+                    url: 'https://www.typescriptlang.org/'
+                },
+                {
+                    img: 'next.png',
+                    url: 'https://nextjs.org/'
+                },
+                {
+                    img: 'redux-toolkit.png',
+                    url: 'https://redux-toolkit.js.org/'
+                },
+                {
+                    img: 'mt.png',
+                    url: 'https://www.material-tailwind.com/'
+                },
+                {
+                    img: 'tailwindcss.png',
+                    url: 'https://tailwindcss.com/'
                 },
             ]
         },
