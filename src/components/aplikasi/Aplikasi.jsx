@@ -22,7 +22,7 @@ import lumina from '../../videos/lumina.mp4'
 function Aplikasi() {
     const [dataAplikasi] = useState([
         {
-            linkProjek: 'https://lumina-a8fa3.web.app/',
+            linkProjek: 'https://lumina-id.web.app/',
             titleAplikasi: `Lumina Realtime Messaging App`,
             deskripsi: 'Messaging App',
             video: lumina,

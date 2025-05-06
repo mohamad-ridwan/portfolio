@@ -5,7 +5,7 @@ import CpuUsageActiveChatWhenScrolling from '../../../videos/cpu-usage-active-ch
 import CpuUsageActiveChatWhenScrollBottom from '../../../videos/cpu-usage-active-chat-when-scroll-bottom.mp4'
 import CpuUsageActiveChatWhenTyping from '../../../videos/cpu-usage-active-chat-when-typing.mp4'
 import CpuUsageActiveChatWhenNavigation from '../../../videos/cpu-usage-active-chat-when-navigation.mp4'
-import firstMessageFPS from '../../../videos/first-message-lumina-fps.mp4'
+import firstMessageFPS from '../../../videos/first-message-lumina-fps.mov'
 import scrollingFPS from '../../../videos/scrolling-lumina-fps.mp4'
 
 export default function Lumina() {  
