@@ -27,7 +27,7 @@ function Aplikasi() {
             deskripsi: 'Messaging App',
             video: lumina,
             teknikalSlug: 'lumina',
-            github: 'https://github.com/REALM-CHAT/realm-inbox.git',
+            github: 'https://github.com/mohamad-ridwan/lumina',
             tools: [
                 {
                     img: 'js.png',
