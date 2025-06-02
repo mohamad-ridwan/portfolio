@@ -10,7 +10,7 @@ function Profile() {
                     <div className="column-kiri-profile">
                         <div className='column-profile'>
                             <img
-                                src="/me.jpeg"
+                                src="/me.png"
                                 alt=""
                                 className='me'
                             />
